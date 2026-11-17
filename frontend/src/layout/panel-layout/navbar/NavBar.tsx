@@ -128,7 +128,7 @@ export const NavBar = memo(function NavBar(): JSX.Element {
                     )}
                 >
                     <div
-                        className={cn('flex gap-2 items-center rounded-md w-full px-1 pt-2 pb-1', {
+                        className={cn('flex gap-1 items-center rounded-md w-full px-1 pt-2 pb-1', {
                             'flex-col pt-2 pb-0': isLayoutNavCollapsed,
                         })}
                     >

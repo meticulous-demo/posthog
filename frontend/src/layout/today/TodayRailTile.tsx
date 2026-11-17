@@ -46,7 +46,7 @@ export const TodayRailTile = forwardRef<HTMLElement, TodayRailTileProps>(functio
         >
             <span
                 className={cn(
-                    'relative flex size-10 items-center justify-center rounded-md [&_svg]:size-5',
+                    'relative flex size-10 items-center justify-center rounded-full [&_svg]:size-5',
                     'group-focus-visible:ring-2 group-focus-visible:ring-[var(--ring)]',
                     active ? 'bg-[var(--fill-selected)]' : 'group-hover:bg-[var(--fill-hover)]'
                 )}
